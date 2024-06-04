@@ -1,0 +1,42 @@
+#infobar {
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 20px;
+    color: var(--blue-gray);
+}
+
+.subtitle {
+    font-size: 12px;
+    color: var(--gray);
+    margin: 0px 20%;
+}
+
+.tag-container {
+    border-top: 2px var(--off-white2) solid;
+    border-bottom: 2px var(--off-white2) solid;
+    padding: 6px 10%;
+    text-align: left;
+}
+
+.tag-item {
+    font-size: 12px;
+    color: var(--gray);
+    display: inline-block;
+    border: 1px var(--off-white3) solid;
+    border-radius: 4px;
+    padding: 5px 20px;
+    margin-right: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
