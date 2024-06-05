@@ -23,7 +23,6 @@ body {
 
 .content {
   background-color: var(--white);
-  height: 100%;
 }
 
 .content-section-padded {

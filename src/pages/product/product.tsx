@@ -16,6 +16,7 @@ export const ProductPage: React.FunctionComponent = () => {
             </div>
             <div className={"flex-column-right"}>
                 <Graph sales={data[0].sales} />
+                <Table sales={data[0].sales} />
             </div>
         </div>
     )
